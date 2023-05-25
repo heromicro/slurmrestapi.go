@@ -13,7 +13,7 @@ import (
 	"context"
 	"testing"
 
-	openapiclient "github.com/HEROMICRO/SLURMRESTAPI.GO"
+	openapiclient "github.com/heromicro/slurmrestapi.go"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

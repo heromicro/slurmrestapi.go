@@ -1,4 +1,4 @@
-module github.com/HEROMICRO/SLURMRESTAPI.GO
+module github.com/heromicro/slurmrestapi.go
 
 go 1.18
 

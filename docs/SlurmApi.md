@@ -68,7 +68,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/HEROMICRO/SLURMRESTAPI.GO"
+    openapiclient "github.com/heromicro/slurmrestapi.go"
 )
 
 func main() {
@@ -135,7 +135,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/HEROMICRO/SLURMRESTAPI.GO"
+    openapiclient "github.com/heromicro/slurmrestapi.go"
 )
 
 func main() {
@@ -199,7 +199,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/HEROMICRO/SLURMRESTAPI.GO"
+    openapiclient "github.com/heromicro/slurmrestapi.go"
 )
 
 func main() {
@@ -256,7 +256,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/HEROMICRO/SLURMRESTAPI.GO"
+    openapiclient "github.com/heromicro/slurmrestapi.go"
 )
 
 func main() {
@@ -320,7 +320,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/HEROMICRO/SLURMRESTAPI.GO"
+    openapiclient "github.com/heromicro/slurmrestapi.go"
 )
 
 func main() {
@@ -380,7 +380,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/HEROMICRO/SLURMRESTAPI.GO"
+    openapiclient "github.com/heromicro/slurmrestapi.go"
 )
 
 func main() {
@@ -444,7 +444,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/HEROMICRO/SLURMRESTAPI.GO"
+    openapiclient "github.com/heromicro/slurmrestapi.go"
 )
 
 func main() {
@@ -504,7 +504,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/HEROMICRO/SLURMRESTAPI.GO"
+    openapiclient "github.com/heromicro/slurmrestapi.go"
 )
 
 func main() {
@@ -571,7 +571,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/HEROMICRO/SLURMRESTAPI.GO"
+    openapiclient "github.com/heromicro/slurmrestapi.go"
 )
 
 func main() {
@@ -631,7 +631,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/HEROMICRO/SLURMRESTAPI.GO"
+    openapiclient "github.com/heromicro/slurmrestapi.go"
 )
 
 func main() {
@@ -698,7 +698,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/HEROMICRO/SLURMRESTAPI.GO"
+    openapiclient "github.com/heromicro/slurmrestapi.go"
 )
 
 func main() {
@@ -758,7 +758,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/HEROMICRO/SLURMRESTAPI.GO"
+    openapiclient "github.com/heromicro/slurmrestapi.go"
 )
 
 func main() {
@@ -815,7 +815,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/HEROMICRO/SLURMRESTAPI.GO"
+    openapiclient "github.com/heromicro/slurmrestapi.go"
 )
 
 func main() {
@@ -872,7 +872,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/HEROMICRO/SLURMRESTAPI.GO"
+    openapiclient "github.com/heromicro/slurmrestapi.go"
 )
 
 func main() {
@@ -932,7 +932,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/HEROMICRO/SLURMRESTAPI.GO"
+    openapiclient "github.com/heromicro/slurmrestapi.go"
 )
 
 func main() {
@@ -999,7 +999,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/HEROMICRO/SLURMRESTAPI.GO"
+    openapiclient "github.com/heromicro/slurmrestapi.go"
 )
 
 func main() {
@@ -1066,7 +1066,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/HEROMICRO/SLURMRESTAPI.GO"
+    openapiclient "github.com/heromicro/slurmrestapi.go"
 )
 
 func main() {
@@ -1126,7 +1126,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/HEROMICRO/SLURMRESTAPI.GO"
+    openapiclient "github.com/heromicro/slurmrestapi.go"
 )
 
 func main() {
@@ -1186,7 +1186,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/HEROMICRO/SLURMRESTAPI.GO"
+    openapiclient "github.com/heromicro/slurmrestapi.go"
 )
 
 func main() {
@@ -1250,7 +1250,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/HEROMICRO/SLURMRESTAPI.GO"
+    openapiclient "github.com/heromicro/slurmrestapi.go"
 )
 
 func main() {
@@ -1316,7 +1316,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/HEROMICRO/SLURMRESTAPI.GO"
+    openapiclient "github.com/heromicro/slurmrestapi.go"
 )
 
 func main() {
@@ -1382,7 +1382,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/HEROMICRO/SLURMRESTAPI.GO"
+    openapiclient "github.com/heromicro/slurmrestapi.go"
 )
 
 func main() {
@@ -1446,7 +1446,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/HEROMICRO/SLURMRESTAPI.GO"
+    openapiclient "github.com/heromicro/slurmrestapi.go"
 )
 
 func main() {
@@ -1510,7 +1510,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/HEROMICRO/SLURMRESTAPI.GO"
+    openapiclient "github.com/heromicro/slurmrestapi.go"
 )
 
 func main() {
@@ -1574,7 +1574,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/HEROMICRO/SLURMRESTAPI.GO"
+    openapiclient "github.com/heromicro/slurmrestapi.go"
 )
 
 func main() {
@@ -1638,7 +1638,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/HEROMICRO/SLURMRESTAPI.GO"
+    openapiclient "github.com/heromicro/slurmrestapi.go"
 )
 
 func main() {
@@ -1695,7 +1695,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/HEROMICRO/SLURMRESTAPI.GO"
+    openapiclient "github.com/heromicro/slurmrestapi.go"
 )
 
 func main() {
@@ -1762,7 +1762,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/HEROMICRO/SLURMRESTAPI.GO"
+    openapiclient "github.com/heromicro/slurmrestapi.go"
 )
 
 func main() {
@@ -1822,7 +1822,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/HEROMICRO/SLURMRESTAPI.GO"
+    openapiclient "github.com/heromicro/slurmrestapi.go"
 )
 
 func main() {
@@ -1888,7 +1888,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/HEROMICRO/SLURMRESTAPI.GO"
+    openapiclient "github.com/heromicro/slurmrestapi.go"
 )
 
 func main() {
@@ -1954,7 +1954,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/HEROMICRO/SLURMRESTAPI.GO"
+    openapiclient "github.com/heromicro/slurmrestapi.go"
 )
 
 func main() {
@@ -2018,7 +2018,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/HEROMICRO/SLURMRESTAPI.GO"
+    openapiclient "github.com/heromicro/slurmrestapi.go"
 )
 
 func main() {
@@ -2075,7 +2075,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/HEROMICRO/SLURMRESTAPI.GO"
+    openapiclient "github.com/heromicro/slurmrestapi.go"
 )
 
 func main() {
@@ -2132,7 +2132,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/HEROMICRO/SLURMRESTAPI.GO"
+    openapiclient "github.com/heromicro/slurmrestapi.go"
 )
 
 func main() {
@@ -2196,7 +2196,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/HEROMICRO/SLURMRESTAPI.GO"
+    openapiclient "github.com/heromicro/slurmrestapi.go"
 )
 
 func main() {
@@ -2306,7 +2306,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/HEROMICRO/SLURMRESTAPI.GO"
+    openapiclient "github.com/heromicro/slurmrestapi.go"
 )
 
 func main() {
@@ -2366,7 +2366,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/HEROMICRO/SLURMRESTAPI.GO"
+    openapiclient "github.com/heromicro/slurmrestapi.go"
 )
 
 func main() {
@@ -2433,7 +2433,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/HEROMICRO/SLURMRESTAPI.GO"
+    openapiclient "github.com/heromicro/slurmrestapi.go"
 )
 
 func main() {
@@ -2490,7 +2490,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/HEROMICRO/SLURMRESTAPI.GO"
+    openapiclient "github.com/heromicro/slurmrestapi.go"
 )
 
 func main() {
@@ -2557,7 +2557,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/HEROMICRO/SLURMRESTAPI.GO"
+    openapiclient "github.com/heromicro/slurmrestapi.go"
 )
 
 func main() {
@@ -2617,7 +2617,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/HEROMICRO/SLURMRESTAPI.GO"
+    openapiclient "github.com/heromicro/slurmrestapi.go"
 )
 
 func main() {
@@ -2681,7 +2681,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/HEROMICRO/SLURMRESTAPI.GO"
+    openapiclient "github.com/heromicro/slurmrestapi.go"
 )
 
 func main() {
@@ -2738,7 +2738,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/HEROMICRO/SLURMRESTAPI.GO"
+    openapiclient "github.com/heromicro/slurmrestapi.go"
 )
 
 func main() {
@@ -2798,7 +2798,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/HEROMICRO/SLURMRESTAPI.GO"
+    openapiclient "github.com/heromicro/slurmrestapi.go"
 )
 
 func main() {
@@ -2858,7 +2858,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/HEROMICRO/SLURMRESTAPI.GO"
+    openapiclient "github.com/heromicro/slurmrestapi.go"
 )
 
 func main() {
@@ -2918,7 +2918,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/HEROMICRO/SLURMRESTAPI.GO"
+    openapiclient "github.com/heromicro/slurmrestapi.go"
 )
 
 func main() {
@@ -2978,7 +2978,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/HEROMICRO/SLURMRESTAPI.GO"
+    openapiclient "github.com/heromicro/slurmrestapi.go"
 )
 
 func main() {
@@ -3038,7 +3038,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/HEROMICRO/SLURMRESTAPI.GO"
+    openapiclient "github.com/heromicro/slurmrestapi.go"
 )
 
 func main() {
