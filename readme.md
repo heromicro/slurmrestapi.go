@@ -13,5 +13,5 @@
 ## for slurm rest api v0.0.37
 
 ```shell
- go get github.com/heromicro/slurmrestapi.go@v0.0.37.1
+ go get github.com/heromicro/slurmrestapi.go@v0.0.37.2
 ```
