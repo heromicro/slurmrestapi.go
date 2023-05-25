@@ -17,7 +17,7 @@ import (
 )
 
 // V0037Signal POSIX signal name
-type V0037Signal int32
+type V0037Signal string
 
 // List of v0.0.37_signal
 const (
