@@ -59,7 +59,7 @@ type V0039JobInfo struct {
 	EligibleTime *int64 `json:"eligible_time,omitempty"`
 	EndTime *int64 `json:"end_time,omitempty"`
 	ExcludedNodes *string `json:"excluded_nodes,omitempty"`
-	ExitCode *int32 `json:"exit_code,omitempty"`
+	ExitCode *V0039Uint32NoVal `json:"exit_code,omitempty"`
 	Extra *string `json:"extra,omitempty"`
 	FailedNode *string `json:"failed_node,omitempty"`
 	Features *string `json:"features,omitempty"`
@@ -1416,9 +1416,9 @@ func (o *V0039JobInfo) SetExcludedNodes(v string) {
 }
 
 // GetExitCode returns the ExitCode field value if set, zero value otherwise.
-func (o *V0039JobInfo) GetExitCode() int32 {
+func (o *V0039JobInfo) GetExitCode() V0039Uint32NoVal {
 	if o == nil || IsNil(o.ExitCode) {
-		var ret int32
+		var ret V0039Uint32NoVal
 		return ret
 	}
 	return *o.ExitCode
@@ -1426,7 +1426,7 @@ func (o *V0039JobInfo) GetExitCode() int32 {
 
 // GetExitCodeOk returns a tuple with the ExitCode field value if set, nil otherwise
 // and a boolean to check if the value has been set.
-func (o *V0039JobInfo) GetExitCodeOk() (*int32, bool) {
+func (o *V0039JobInfo) GetExitCodeOk() (*V0039Uint32NoVal, bool) {
 	if o == nil || IsNil(o.ExitCode) {
 		return nil, false
 	}
@@ -1442,8 +1442,8 @@ func (o *V0039JobInfo) HasExitCode() bool {
 	return false
 }
 
-// SetExitCode gets a reference to the given int32 and assigns it to the ExitCode field.
-func (o *V0039JobInfo) SetExitCode(v int32) {
+// SetExitCode gets a reference to the given V0039Uint32NoVal and assigns it to the ExitCode field.
+func (o *V0039JobInfo) SetExitCode(v V0039Uint32NoVal) {
 	o.ExitCode = &v
 }
 

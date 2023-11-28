@@ -43,7 +43,7 @@ Name | Type | Description | Notes
 **EligibleTime** | Pointer to **int64** |  | [optional] 
 **EndTime** | Pointer to **int64** |  | [optional] 
 **ExcludedNodes** | Pointer to **string** |  | [optional] 
-**ExitCode** | Pointer to **int32** |  | [optional] 
+**ExitCode** | Pointer to [**V0039Uint32NoVal**](V0039Uint32NoVal.md) |  | [optional] 
 **Extra** | Pointer to **string** |  | [optional] 
 **FailedNode** | Pointer to **string** |  | [optional] 
 **Features** | Pointer to **string** |  | [optional] 
@@ -1129,20 +1129,20 @@ HasExcludedNodes returns a boolean if a field has been set.
 
 ### GetExitCode
 
-`func (o *V0039JobInfo) GetExitCode() int32`
+`func (o *V0039JobInfo) GetExitCode() V0039Uint32NoVal`
 
 GetExitCode returns the ExitCode field if non-nil, zero value otherwise.
 
 ### GetExitCodeOk
 
-`func (o *V0039JobInfo) GetExitCodeOk() (*int32, bool)`
+`func (o *V0039JobInfo) GetExitCodeOk() (*V0039Uint32NoVal, bool)`
 
 GetExitCodeOk returns a tuple with the ExitCode field if it's non-nil, zero value otherwise
 and a boolean to check if the value has been set.
 
 ### SetExitCode
 
-`func (o *V0039JobInfo) SetExitCode(v int32)`
+`func (o *V0039JobInfo) SetExitCode(v V0039Uint32NoVal)`
 
 SetExitCode sets ExitCode field to given value.
 
