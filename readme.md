@@ -1,7 +1,7 @@
 ## for slurm rest api v0.0.39
 
 ```shell
- go get github.com/heromicro/slurmrestapi.go@v0.0.39.4
+ go get github.com/heromicro/slurmrestapi.go@v0.0.39.5
 ```
 
 ## for slurm rest api v0.0.38
