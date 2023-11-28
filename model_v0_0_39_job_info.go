@@ -55,7 +55,7 @@ type V0039JobInfo struct {
 	Deadline *int64 `json:"deadline,omitempty"`
 	DelayBoot *V0039Uint32NoVal `json:"delay_boot,omitempty"`
 	Dependency *string `json:"dependency,omitempty"`
-	DerivedExitCode *int32 `json:"derived_exit_code,omitempty"`
+	DerivedExitCode *V0039Uint32NoVal `json:"derived_exit_code,omitempty"`
 	EligibleTime *int64 `json:"eligible_time,omitempty"`
 	EndTime *int64 `json:"end_time,omitempty"`
 	ExcludedNodes *string `json:"excluded_nodes,omitempty"`
@@ -1288,9 +1288,9 @@ func (o *V0039JobInfo) SetDependency(v string) {
 }
 
 // GetDerivedExitCode returns the DerivedExitCode field value if set, zero value otherwise.
-func (o *V0039JobInfo) GetDerivedExitCode() int32 {
+func (o *V0039JobInfo) GetDerivedExitCode() V0039Uint32NoVal {
 	if o == nil || IsNil(o.DerivedExitCode) {
-		var ret int32
+		var ret V0039Uint32NoVal
 		return ret
 	}
 	return *o.DerivedExitCode
@@ -1298,7 +1298,7 @@ func (o *V0039JobInfo) GetDerivedExitCode() int32 {
 
 // GetDerivedExitCodeOk returns a tuple with the DerivedExitCode field value if set, nil otherwise
 // and a boolean to check if the value has been set.
-func (o *V0039JobInfo) GetDerivedExitCodeOk() (*int32, bool) {
+func (o *V0039JobInfo) GetDerivedExitCodeOk() (*V0039Uint32NoVal, bool) {
 	if o == nil || IsNil(o.DerivedExitCode) {
 		return nil, false
 	}
@@ -1314,8 +1314,8 @@ func (o *V0039JobInfo) HasDerivedExitCode() bool {
 	return false
 }
 
-// SetDerivedExitCode gets a reference to the given int32 and assigns it to the DerivedExitCode field.
-func (o *V0039JobInfo) SetDerivedExitCode(v int32) {
+// SetDerivedExitCode gets a reference to the given V0039Uint32NoVal and assigns it to the DerivedExitCode field.
+func (o *V0039JobInfo) SetDerivedExitCode(v V0039Uint32NoVal) {
 	o.DerivedExitCode = &v
 }
 

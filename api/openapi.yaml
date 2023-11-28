@@ -2715,10 +2715,10 @@ components:
             infinite: true
           memory_per_tres: memory_per_tres
           scheduled_nodes: scheduled_nodes
-          minimum_switches: 8
+          minimum_switches: 6
           qos: qos
-          resize_time: 9
-          eligible_time: 2
+          resize_time: 8
+          eligible_time: 3
           exclusive:
           - "true"
           - "true"
@@ -2750,15 +2750,18 @@ components:
             infinite: true
           tres_per_job: tres_per_job
           failed_node: failed_node
-          derived_exit_code: 3
+          derived_exit_code:
+            number: 6
+            set: false
+            infinite: true
           maximum_switch_wait_time: 6
           core_spec: 5
           mcs_label: mcs_label
           required_nodes: required_nodes
           tres_bind: tres_bind
-          user_id: 6
+          user_id: 2
           selinux_context: selinux_context
-          exit_code: 7
+          exit_code: 4
           federation_origin: federation_origin
           container_id: container_id
           shared:
@@ -2797,7 +2800,7 @@ components:
             infinite: true
           tres_alloc_str: tres_alloc_str
           memory_per_cpu:
-            number: 5
+            number: 4
             set: false
             infinite: true
           cpu_frequency_minimum:
@@ -2817,7 +2820,7 @@ components:
           - BEGIN
           - BEGIN
           memory_per_node:
-            number: 5
+            number: 4
             set: false
             infinite: true
           state_reason: state_reason
@@ -2825,10 +2828,10 @@ components:
             number: 6
             set: false
             infinite: true
-          end_time: 4
-          sockets_per_board: 3
-          nice: 4
-          last_sched_evaluation: 1
+          end_time: 2
+          sockets_per_board: 6
+          nice: 1
+          last_sched_evaluation: 7
           tres_per_node: tres_per_node
           burst_buffer: burst_buffer
           licenses: licenses
@@ -2890,24 +2893,24 @@ components:
           allocating_node: allocating_node
           tres_per_socket: tres_per_socket
           array_task_string: array_task_string
-          submit_time: 1
+          submit_time: 6
           wckey: wckey
           max_nodes:
             number: 6
             set: false
             infinite: true
           batch_flag: true
-          start_time: 6
+          start_time: 3
           name: name
-          preempt_time: 9
+          preempt_time: 5
           contiguous: true
           job_resources:
             nodes: nodes
             allocated_nodes:
             - ""
             - ""
-            allocated_cpus: 6
-            allocated_hosts: 7
+            allocated_cpus: 1
+            allocated_hosts: 6
             allocated_cores: 1
           billable_tres:
             number: 7.061401241503109
@@ -2928,7 +2931,7 @@ components:
           - gres_detail
           - gres_detail
           network: network
-          restart_cnt: 6
+          restart_cnt: 9
           resv_name: resv_name
           extra: extra
           delay_boot:
@@ -2941,8 +2944,8 @@ components:
             set: false
             infinite: true
           standard_output: standard_output
-          pre_sus_time: 6
-          suspend_time: 2
+          pre_sus_time: 9
+          suspend_time: 1
           association_id: 1
           command: command
           tres_freq: tres_freq
@@ -2950,7 +2953,7 @@ components:
           tres_per_task: tres_per_task
           mail_user: mail_user
           nodes: nodes
-          group_id: 1
+          group_id: 7
           job_id: 1
           comment: comment
           account: account
@@ -2962,10 +2965,10 @@ components:
             infinite: true
           memory_per_tres: memory_per_tres
           scheduled_nodes: scheduled_nodes
-          minimum_switches: 8
+          minimum_switches: 6
           qos: qos
-          resize_time: 9
-          eligible_time: 2
+          resize_time: 8
+          eligible_time: 3
           exclusive:
           - "true"
           - "true"
@@ -2997,15 +3000,18 @@ components:
             infinite: true
           tres_per_job: tres_per_job
           failed_node: failed_node
-          derived_exit_code: 3
+          derived_exit_code:
+            number: 6
+            set: false
+            infinite: true
           maximum_switch_wait_time: 6
           core_spec: 5
           mcs_label: mcs_label
           required_nodes: required_nodes
           tres_bind: tres_bind
-          user_id: 6
+          user_id: 2
           selinux_context: selinux_context
-          exit_code: 7
+          exit_code: 4
           federation_origin: federation_origin
           container_id: container_id
           shared:
@@ -3044,7 +3050,7 @@ components:
             infinite: true
           tres_alloc_str: tres_alloc_str
           memory_per_cpu:
-            number: 5
+            number: 4
             set: false
             infinite: true
           cpu_frequency_minimum:
@@ -3064,7 +3070,7 @@ components:
           - BEGIN
           - BEGIN
           memory_per_node:
-            number: 5
+            number: 4
             set: false
             infinite: true
           state_reason: state_reason
@@ -3072,10 +3078,10 @@ components:
             number: 6
             set: false
             infinite: true
-          end_time: 4
-          sockets_per_board: 3
-          nice: 4
-          last_sched_evaluation: 1
+          end_time: 2
+          sockets_per_board: 6
+          nice: 1
+          last_sched_evaluation: 7
           tres_per_node: tres_per_node
           burst_buffer: burst_buffer
           licenses: licenses
@@ -3137,24 +3143,24 @@ components:
           allocating_node: allocating_node
           tres_per_socket: tres_per_socket
           array_task_string: array_task_string
-          submit_time: 1
+          submit_time: 6
           wckey: wckey
           max_nodes:
             number: 6
             set: false
             infinite: true
           batch_flag: true
-          start_time: 6
+          start_time: 3
           name: name
-          preempt_time: 9
+          preempt_time: 5
           contiguous: true
           job_resources:
             nodes: nodes
             allocated_nodes:
             - ""
             - ""
-            allocated_cpus: 6
-            allocated_hosts: 7
+            allocated_cpus: 1
+            allocated_hosts: 6
             allocated_cores: 1
           billable_tres:
             number: 7.061401241503109
@@ -3175,7 +3181,7 @@ components:
           - gres_detail
           - gres_detail
           network: network
-          restart_cnt: 6
+          restart_cnt: 9
           resv_name: resv_name
           extra: extra
           delay_boot:
@@ -3188,8 +3194,8 @@ components:
             set: false
             infinite: true
           standard_output: standard_output
-          pre_sus_time: 6
-          suspend_time: 2
+          pre_sus_time: 9
+          suspend_time: 1
           association_id: 1
           command: command
           tres_freq: tres_freq
@@ -3197,7 +3203,7 @@ components:
           tres_per_task: tres_per_task
           mail_user: mail_user
           nodes: nodes
-          group_id: 1
+          group_id: 7
           job_id: 1
           comment: comment
           account: account
@@ -3278,7 +3284,7 @@ components:
           port: 6
           name: name
           resume_after:
-            number: 5
+            number: 4
             set: false
             infinite: true
           temporary_disk: 3
@@ -3292,7 +3298,7 @@ components:
               infinite: true
             energy_update_time: 1
             consumed_energy:
-              number: 5
+              number: 4
               set: false
               infinite: true
           boards: 0
@@ -3302,7 +3308,7 @@ components:
           - active_features
           reason_set_by_user: reason_set_by_user
           free_mem:
-            number: 5
+            number: 4
             set: false
             infinite: true
           alloc_idle_cpus: 6
@@ -3378,7 +3384,7 @@ components:
           port: 6
           name: name
           resume_after:
-            number: 5
+            number: 4
             set: false
             infinite: true
           temporary_disk: 3
@@ -3392,7 +3398,7 @@ components:
               infinite: true
             energy_update_time: 1
             consumed_energy:
-              number: 5
+              number: 4
               set: false
               infinite: true
           boards: 0
@@ -3402,7 +3408,7 @@ components:
           - active_features
           reason_set_by_user: reason_set_by_user
           free_mem:
-            number: 5
+            number: 4
             set: false
             infinite: true
           alloc_idle_cpus: 6
@@ -4023,7 +4029,7 @@ components:
     v0.0.39_uint64_no_val:
       description: Integer number with flags
       example:
-        number: 5
+        number: 4
         set: false
         infinite: true
       properties:
@@ -4647,10 +4653,10 @@ components:
           infinite: true
         memory_per_tres: memory_per_tres
         scheduled_nodes: scheduled_nodes
-        minimum_switches: 8
+        minimum_switches: 6
         qos: qos
-        resize_time: 9
-        eligible_time: 2
+        resize_time: 8
+        eligible_time: 3
         exclusive:
         - "true"
         - "true"
@@ -4682,15 +4688,18 @@ components:
           infinite: true
         tres_per_job: tres_per_job
         failed_node: failed_node
-        derived_exit_code: 3
+        derived_exit_code:
+          number: 6
+          set: false
+          infinite: true
         maximum_switch_wait_time: 6
         core_spec: 5
         mcs_label: mcs_label
         required_nodes: required_nodes
         tres_bind: tres_bind
-        user_id: 6
+        user_id: 2
         selinux_context: selinux_context
-        exit_code: 7
+        exit_code: 4
         federation_origin: federation_origin
         container_id: container_id
         shared:
@@ -4729,7 +4738,7 @@ components:
           infinite: true
         tres_alloc_str: tres_alloc_str
         memory_per_cpu:
-          number: 5
+          number: 4
           set: false
           infinite: true
         cpu_frequency_minimum:
@@ -4749,7 +4758,7 @@ components:
         - BEGIN
         - BEGIN
         memory_per_node:
-          number: 5
+          number: 4
           set: false
           infinite: true
         state_reason: state_reason
@@ -4757,10 +4766,10 @@ components:
           number: 6
           set: false
           infinite: true
-        end_time: 4
-        sockets_per_board: 3
-        nice: 4
-        last_sched_evaluation: 1
+        end_time: 2
+        sockets_per_board: 6
+        nice: 1
+        last_sched_evaluation: 7
         tres_per_node: tres_per_node
         burst_buffer: burst_buffer
         licenses: licenses
@@ -4822,24 +4831,24 @@ components:
         allocating_node: allocating_node
         tres_per_socket: tres_per_socket
         array_task_string: array_task_string
-        submit_time: 1
+        submit_time: 6
         wckey: wckey
         max_nodes:
           number: 6
           set: false
           infinite: true
         batch_flag: true
-        start_time: 6
+        start_time: 3
         name: name
-        preempt_time: 9
+        preempt_time: 5
         contiguous: true
         job_resources:
           nodes: nodes
           allocated_nodes:
           - ""
           - ""
-          allocated_cpus: 6
-          allocated_hosts: 7
+          allocated_cpus: 1
+          allocated_hosts: 6
           allocated_cores: 1
         billable_tres:
           number: 7.061401241503109
@@ -4860,7 +4869,7 @@ components:
         - gres_detail
         - gres_detail
         network: network
-        restart_cnt: 6
+        restart_cnt: 9
         resv_name: resv_name
         extra: extra
         delay_boot:
@@ -4873,8 +4882,8 @@ components:
           set: false
           infinite: true
         standard_output: standard_output
-        pre_sus_time: 6
-        suspend_time: 2
+        pre_sus_time: 9
+        suspend_time: 1
         association_id: 1
         command: command
         tres_freq: tres_freq
@@ -4882,7 +4891,7 @@ components:
         tres_per_task: tres_per_task
         mail_user: mail_user
         nodes: nodes
-        group_id: 1
+        group_id: 7
         job_id: 1
         comment: comment
         account: account
@@ -5001,8 +5010,7 @@ components:
         dependency:
           type: string
         derived_exit_code:
-          format: int32
-          type: integer
+          $ref: '#/components/schemas/v0.0.39_uint32_no_val'
         eligible_time:
           format: int64
           type: integer
@@ -5296,8 +5304,8 @@ components:
         allocated_nodes:
         - ""
         - ""
-        allocated_cpus: 6
-        allocated_hosts: 7
+        allocated_cpus: 1
+        allocated_hosts: 6
         allocated_cores: 1
       properties:
         nodes:
@@ -5365,7 +5373,7 @@ components:
         port: 6
         name: name
         resume_after:
-          number: 5
+          number: 4
           set: false
           infinite: true
         temporary_disk: 3
@@ -5379,7 +5387,7 @@ components:
             infinite: true
           energy_update_time: 1
           consumed_energy:
-            number: 5
+            number: 4
             set: false
             infinite: true
         boards: 0
@@ -5389,7 +5397,7 @@ components:
         - active_features
         reason_set_by_user: reason_set_by_user
         free_mem:
-          number: 5
+          number: 4
           set: false
           infinite: true
         alloc_idle_cpus: 6
@@ -5676,7 +5684,7 @@ components:
           infinite: true
         energy_update_time: 1
         consumed_energy:
-          number: 5
+          number: 4
           set: false
           infinite: true
       properties:
@@ -6601,7 +6609,7 @@ components:
             statistics:
               energy:
                 consumed:
-                  number: 5
+                  number: 4
                   set: false
                   infinite: true
           - nodes:
@@ -6641,7 +6649,7 @@ components:
             statistics:
               energy:
                 consumed:
-                  number: 5
+                  number: 4
                   set: false
                   infinite: true
           script: script
@@ -6762,7 +6770,7 @@ components:
             statistics:
               energy:
                 consumed:
-                  number: 5
+                  number: 4
                   set: false
                   infinite: true
           - nodes:
@@ -6802,7 +6810,7 @@ components:
             statistics:
               energy:
                 consumed:
-                  number: 5
+                  number: 4
                   set: false
                   infinite: true
           script: script
@@ -8401,7 +8409,7 @@ components:
           statistics:
             energy:
               consumed:
-                number: 5
+                number: 4
                 set: false
                 infinite: true
         - nodes:
@@ -8441,7 +8449,7 @@ components:
           statistics:
             energy:
               consumed:
-                number: 5
+                number: 4
                 set: false
                 infinite: true
         script: script
@@ -8626,7 +8634,7 @@ components:
         statistics:
           energy:
             consumed:
-              number: 5
+              number: 4
               set: false
               infinite: true
       properties:
@@ -9339,7 +9347,7 @@ components:
     v0_0_39_step_statistics_energy:
       example:
         consumed:
-          number: 5
+          number: 4
           set: false
           infinite: true
       properties:
@@ -9350,7 +9358,7 @@ components:
       example:
         energy:
           consumed:
-            number: 5
+            number: 4
             set: false
             infinite: true
       properties:

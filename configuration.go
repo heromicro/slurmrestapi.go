@@ -102,25 +102,25 @@ func NewConfiguration() *Configuration {
 			},
 		},
 		OperationServers: map[string]ServerConfigurations{
-			"OpenapiApiService.OpenapiGet": {
+			"OpenapiAPIService.OpenapiGet": {
 				{
 					URL: "/",
 					Description: "No description provided",
 				},
 			},
-			"OpenapiApiService.OpenapiJsonGet": {
+			"OpenapiAPIService.OpenapiJsonGet": {
 				{
 					URL: "/",
 					Description: "No description provided",
 				},
 			},
-			"OpenapiApiService.OpenapiV3Get": {
+			"OpenapiAPIService.OpenapiV3Get": {
 				{
 					URL: "/",
 					Description: "No description provided",
 				},
 			},
-			"OpenapiApiService.OpenapiYamlGet": {
+			"OpenapiAPIService.OpenapiYamlGet": {
 				{
 					URL: "/",
 					Description: "No description provided",

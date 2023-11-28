@@ -1,13 +1,13 @@
-# \OpenapiApi
+# \OpenapiAPI
 
 All URIs are relative to _http://localhost_
 
 | Method                                             | HTTP request          | Description                    |
 | -------------------------------------------------- | --------------------- | ------------------------------ |
-| [**OpenapiGet**](OpenapiApi.md#OpenapiGet)         | **Get** /openapi      | Retrieve OpenAPI Specification |
-| [**OpenapiJsonGet**](OpenapiApi.md#OpenapiJsonGet) | **Get** /openapi.json | Retrieve OpenAPI Specification |
-| [**OpenapiV3Get**](OpenapiApi.md#OpenapiV3Get)     | **Get** /openapi/v3   | Retrieve OpenAPI Specification |
-| [**OpenapiYamlGet**](OpenapiApi.md#OpenapiYamlGet) | **Get** /openapi.yaml | Retrieve OpenAPI Specification |
+| [**OpenapiGet**](OpenapiAPI.md#OpenapiGet)         | **Get** /openapi      | Retrieve OpenAPI Specification |
+| [**OpenapiJsonGet**](OpenapiAPI.md#OpenapiJsonGet) | **Get** /openapi.json | Retrieve OpenAPI Specification |
+| [**OpenapiV3Get**](OpenapiAPI.md#OpenapiV3Get)     | **Get** /openapi/v3   | Retrieve OpenAPI Specification |
+| [**OpenapiYamlGet**](OpenapiAPI.md#OpenapiYamlGet) | **Get** /openapi.yaml | Retrieve OpenAPI Specification |
 
 ## OpenapiGet
 
@@ -31,9 +31,9 @@ func main() {
 
     configuration := openapiclient.NewConfiguration()
     apiClient := openapiclient.NewAPIClient(configuration)
-    r, err := apiClient.OpenapiApi.OpenapiGet(context.Background()).Execute()
+    r, err := apiClient.OpenapiAPI.OpenapiGet(context.Background()).Execute()
     if err != nil {
-        fmt.Fprintf(os.Stderr, "Error when calling `OpenapiApi.OpenapiGet``: %v\n", err)
+        fmt.Fprintf(os.Stderr, "Error when calling `OpenapiAPI.OpenapiGet``: %v\n", err)
         fmt.Fprintf(os.Stderr, "Full HTTP response: %v\n", r)
     }
 }
@@ -86,9 +86,9 @@ func main() {
 
     configuration := openapiclient.NewConfiguration()
     apiClient := openapiclient.NewAPIClient(configuration)
-    r, err := apiClient.OpenapiApi.OpenapiJsonGet(context.Background()).Execute()
+    r, err := apiClient.OpenapiAPI.OpenapiJsonGet(context.Background()).Execute()
     if err != nil {
-        fmt.Fprintf(os.Stderr, "Error when calling `OpenapiApi.OpenapiJsonGet``: %v\n", err)
+        fmt.Fprintf(os.Stderr, "Error when calling `OpenapiAPI.OpenapiJsonGet``: %v\n", err)
         fmt.Fprintf(os.Stderr, "Full HTTP response: %v\n", r)
     }
 }
@@ -141,9 +141,9 @@ func main() {
 
     configuration := openapiclient.NewConfiguration()
     apiClient := openapiclient.NewAPIClient(configuration)
-    r, err := apiClient.OpenapiApi.OpenapiV3Get(context.Background()).Execute()
+    r, err := apiClient.OpenapiAPI.OpenapiV3Get(context.Background()).Execute()
     if err != nil {
-        fmt.Fprintf(os.Stderr, "Error when calling `OpenapiApi.OpenapiV3Get``: %v\n", err)
+        fmt.Fprintf(os.Stderr, "Error when calling `OpenapiAPI.OpenapiV3Get``: %v\n", err)
         fmt.Fprintf(os.Stderr, "Full HTTP response: %v\n", r)
     }
 }
@@ -196,9 +196,9 @@ func main() {
 
     configuration := openapiclient.NewConfiguration()
     apiClient := openapiclient.NewAPIClient(configuration)
-    r, err := apiClient.OpenapiApi.OpenapiYamlGet(context.Background()).Execute()
+    r, err := apiClient.OpenapiAPI.OpenapiYamlGet(context.Background()).Execute()
     if err != nil {
-        fmt.Fprintf(os.Stderr, "Error when calling `OpenapiApi.OpenapiYamlGet``: %v\n", err)
+        fmt.Fprintf(os.Stderr, "Error when calling `OpenapiAPI.OpenapiYamlGet``: %v\n", err)
         fmt.Fprintf(os.Stderr, "Full HTTP response: %v\n", r)
     }
 }

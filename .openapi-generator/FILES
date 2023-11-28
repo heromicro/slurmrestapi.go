@@ -1,5 +1,4 @@
 .gitignore
-.openapi-generator-ignore
 .travis.yml
 README.md
 api/openapi.yaml
@@ -25,8 +24,8 @@ docs/Dbv0039UpdateUsers.md
 docs/Dbv0039UserInfo.md
 docs/Dbv0039Warning.md
 docs/Dbv0039WckeyInfo.md
-docs/OpenapiApi.md
-docs/SlurmApi.md
+docs/OpenapiAPI.md
+docs/SlurmAPI.md
 docs/Status.md
 docs/V0039Account.md
 docs/V0039Accounting.md
@@ -263,6 +262,4 @@ model_v0_0_39_warning.go
 model_v0_0_39_wckey.go
 model_v0_0_39_wckey_tag.go
 response.go
-test/api_openapi_test.go
-test/api_slurm_test.go
 utils.go

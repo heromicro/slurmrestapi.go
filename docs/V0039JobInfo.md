@@ -39,7 +39,7 @@ Name | Type | Description | Notes
 **Deadline** | Pointer to **int64** |  | [optional] 
 **DelayBoot** | Pointer to [**V0039Uint32NoVal**](V0039Uint32NoVal.md) |  | [optional] 
 **Dependency** | Pointer to **string** |  | [optional] 
-**DerivedExitCode** | Pointer to **int32** |  | [optional] 
+**DerivedExitCode** | Pointer to [**V0039Uint32NoVal**](V0039Uint32NoVal.md) |  | [optional] 
 **EligibleTime** | Pointer to **int64** |  | [optional] 
 **EndTime** | Pointer to **int64** |  | [optional] 
 **ExcludedNodes** | Pointer to **string** |  | [optional] 
@@ -1029,20 +1029,20 @@ HasDependency returns a boolean if a field has been set.
 
 ### GetDerivedExitCode
 
-`func (o *V0039JobInfo) GetDerivedExitCode() int32`
+`func (o *V0039JobInfo) GetDerivedExitCode() V0039Uint32NoVal`
 
 GetDerivedExitCode returns the DerivedExitCode field if non-nil, zero value otherwise.
 
 ### GetDerivedExitCodeOk
 
-`func (o *V0039JobInfo) GetDerivedExitCodeOk() (*int32, bool)`
+`func (o *V0039JobInfo) GetDerivedExitCodeOk() (*V0039Uint32NoVal, bool)`
 
 GetDerivedExitCodeOk returns a tuple with the DerivedExitCode field if it's non-nil, zero value otherwise
 and a boolean to check if the value has been set.
 
 ### SetDerivedExitCode
 
-`func (o *V0039JobInfo) SetDerivedExitCode(v int32)`
+`func (o *V0039JobInfo) SetDerivedExitCode(v V0039Uint32NoVal)`
 
 SetDerivedExitCode sets DerivedExitCode field to given value.
 

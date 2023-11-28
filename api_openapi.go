@@ -20,12 +20,12 @@ import (
 )
 
 
-// OpenapiApiService OpenapiApi service
-type OpenapiApiService service
+// OpenapiAPIService OpenapiAPI service
+type OpenapiAPIService service
 
 type ApiOpenapiGetRequest struct {
 	ctx context.Context
-	ApiService *OpenapiApiService
+	ApiService *OpenapiAPIService
 }
 
 func (r ApiOpenapiGetRequest) Execute() (*http.Response, error) {
@@ -38,7 +38,7 @@ OpenapiGet Retrieve OpenAPI Specification
  @param ctx context.Context - for authentication, logging, cancellation, deadlines, tracing, etc. Passed from http.Request or context.Background().
  @return ApiOpenapiGetRequest
 */
-func (a *OpenapiApiService) OpenapiGet(ctx context.Context) ApiOpenapiGetRequest {
+func (a *OpenapiAPIService) OpenapiGet(ctx context.Context) ApiOpenapiGetRequest {
 	return ApiOpenapiGetRequest{
 		ApiService: a,
 		ctx: ctx,
@@ -46,14 +46,14 @@ func (a *OpenapiApiService) OpenapiGet(ctx context.Context) ApiOpenapiGetRequest
 }
 
 // Execute executes the request
-func (a *OpenapiApiService) OpenapiGetExecute(r ApiOpenapiGetRequest) (*http.Response, error) {
+func (a *OpenapiAPIService) OpenapiGetExecute(r ApiOpenapiGetRequest) (*http.Response, error) {
 	var (
 		localVarHTTPMethod   = http.MethodGet
 		localVarPostBody     interface{}
 		formFiles            []formFile
 	)
 
-	localBasePath, err := a.client.cfg.ServerURLWithContext(r.ctx, "OpenapiApiService.OpenapiGet")
+	localBasePath, err := a.client.cfg.ServerURLWithContext(r.ctx, "OpenapiAPIService.OpenapiGet")
 	if err != nil {
 		return nil, &GenericOpenAPIError{error: err.Error()}
 	}
@@ -139,7 +139,7 @@ func (a *OpenapiApiService) OpenapiGetExecute(r ApiOpenapiGetRequest) (*http.Res
 
 type ApiOpenapiJsonGetRequest struct {
 	ctx context.Context
-	ApiService *OpenapiApiService
+	ApiService *OpenapiAPIService
 }
 
 func (r ApiOpenapiJsonGetRequest) Execute() (*http.Response, error) {
@@ -152,7 +152,7 @@ OpenapiJsonGet Retrieve OpenAPI Specification
  @param ctx context.Context - for authentication, logging, cancellation, deadlines, tracing, etc. Passed from http.Request or context.Background().
  @return ApiOpenapiJsonGetRequest
 */
-func (a *OpenapiApiService) OpenapiJsonGet(ctx context.Context) ApiOpenapiJsonGetRequest {
+func (a *OpenapiAPIService) OpenapiJsonGet(ctx context.Context) ApiOpenapiJsonGetRequest {
 	return ApiOpenapiJsonGetRequest{
 		ApiService: a,
 		ctx: ctx,
@@ -160,14 +160,14 @@ func (a *OpenapiApiService) OpenapiJsonGet(ctx context.Context) ApiOpenapiJsonGe
 }
 
 // Execute executes the request
-func (a *OpenapiApiService) OpenapiJsonGetExecute(r ApiOpenapiJsonGetRequest) (*http.Response, error) {
+func (a *OpenapiAPIService) OpenapiJsonGetExecute(r ApiOpenapiJsonGetRequest) (*http.Response, error) {
 	var (
 		localVarHTTPMethod   = http.MethodGet
 		localVarPostBody     interface{}
 		formFiles            []formFile
 	)
 
-	localBasePath, err := a.client.cfg.ServerURLWithContext(r.ctx, "OpenapiApiService.OpenapiJsonGet")
+	localBasePath, err := a.client.cfg.ServerURLWithContext(r.ctx, "OpenapiAPIService.OpenapiJsonGet")
 	if err != nil {
 		return nil, &GenericOpenAPIError{error: err.Error()}
 	}
@@ -253,7 +253,7 @@ func (a *OpenapiApiService) OpenapiJsonGetExecute(r ApiOpenapiJsonGetRequest) (*
 
 type ApiOpenapiV3GetRequest struct {
 	ctx context.Context
-	ApiService *OpenapiApiService
+	ApiService *OpenapiAPIService
 }
 
 func (r ApiOpenapiV3GetRequest) Execute() (*http.Response, error) {
@@ -266,7 +266,7 @@ OpenapiV3Get Retrieve OpenAPI Specification
  @param ctx context.Context - for authentication, logging, cancellation, deadlines, tracing, etc. Passed from http.Request or context.Background().
  @return ApiOpenapiV3GetRequest
 */
-func (a *OpenapiApiService) OpenapiV3Get(ctx context.Context) ApiOpenapiV3GetRequest {
+func (a *OpenapiAPIService) OpenapiV3Get(ctx context.Context) ApiOpenapiV3GetRequest {
 	return ApiOpenapiV3GetRequest{
 		ApiService: a,
 		ctx: ctx,
@@ -274,14 +274,14 @@ func (a *OpenapiApiService) OpenapiV3Get(ctx context.Context) ApiOpenapiV3GetReq
 }
 
 // Execute executes the request
-func (a *OpenapiApiService) OpenapiV3GetExecute(r ApiOpenapiV3GetRequest) (*http.Response, error) {
+func (a *OpenapiAPIService) OpenapiV3GetExecute(r ApiOpenapiV3GetRequest) (*http.Response, error) {
 	var (
 		localVarHTTPMethod   = http.MethodGet
 		localVarPostBody     interface{}
 		formFiles            []formFile
 	)
 
-	localBasePath, err := a.client.cfg.ServerURLWithContext(r.ctx, "OpenapiApiService.OpenapiV3Get")
+	localBasePath, err := a.client.cfg.ServerURLWithContext(r.ctx, "OpenapiAPIService.OpenapiV3Get")
 	if err != nil {
 		return nil, &GenericOpenAPIError{error: err.Error()}
 	}
@@ -367,7 +367,7 @@ func (a *OpenapiApiService) OpenapiV3GetExecute(r ApiOpenapiV3GetRequest) (*http
 
 type ApiOpenapiYamlGetRequest struct {
 	ctx context.Context
-	ApiService *OpenapiApiService
+	ApiService *OpenapiAPIService
 }
 
 func (r ApiOpenapiYamlGetRequest) Execute() (*http.Response, error) {
@@ -380,7 +380,7 @@ OpenapiYamlGet Retrieve OpenAPI Specification
  @param ctx context.Context - for authentication, logging, cancellation, deadlines, tracing, etc. Passed from http.Request or context.Background().
  @return ApiOpenapiYamlGetRequest
 */
-func (a *OpenapiApiService) OpenapiYamlGet(ctx context.Context) ApiOpenapiYamlGetRequest {
+func (a *OpenapiAPIService) OpenapiYamlGet(ctx context.Context) ApiOpenapiYamlGetRequest {
 	return ApiOpenapiYamlGetRequest{
 		ApiService: a,
 		ctx: ctx,
@@ -388,14 +388,14 @@ func (a *OpenapiApiService) OpenapiYamlGet(ctx context.Context) ApiOpenapiYamlGe
 }
 
 // Execute executes the request
-func (a *OpenapiApiService) OpenapiYamlGetExecute(r ApiOpenapiYamlGetRequest) (*http.Response, error) {
+func (a *OpenapiAPIService) OpenapiYamlGetExecute(r ApiOpenapiYamlGetRequest) (*http.Response, error) {
 	var (
 		localVarHTTPMethod   = http.MethodGet
 		localVarPostBody     interface{}
 		formFiles            []formFile
 	)
 
-	localBasePath, err := a.client.cfg.ServerURLWithContext(r.ctx, "OpenapiApiService.OpenapiYamlGet")
+	localBasePath, err := a.client.cfg.ServerURLWithContext(r.ctx, "OpenapiAPIService.OpenapiYamlGet")
 	if err != nil {
 		return nil, &GenericOpenAPIError{error: err.Error()}
 	}
