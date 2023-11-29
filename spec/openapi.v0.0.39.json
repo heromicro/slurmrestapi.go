@@ -4942,8 +4942,7 @@
                         "type": "string"
                     },
                     "derived_exit_code": {
-                        "type": "integer",
-                        "format": "int32"
+                        "$ref": "#\/components\/schemas\/v0.0.39_uint32_no_val"
                     },
                     "eligible_time": {
                         "type": "integer",
@@ -4957,8 +4956,7 @@
                         "type": "string"
                     },
                     "exit_code": {
-                        "type": "integer",
-                        "format": "int32"
+                        "$ref": "#\/components\/schemas\/v0.0.39_uint32_no_val"
                     },
                     "extra": {
                         "type": "string"
