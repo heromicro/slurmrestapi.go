@@ -1,0 +1,3 @@
+# github.com/heromicro/slurmrestapi.go v0.0.2-0.20230525091130-ce68e84bcaf2
+## explicit; go 1.18
+github.com/heromicro/slurmrestapi.go
