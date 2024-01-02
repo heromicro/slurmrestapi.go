@@ -113,6 +113,23 @@ func slurm_partitions_get(client *slurmrestapi.APIClient) {
 
 }
 
+// func slurm_users(client *slurmrestapi.APIClient) {
+
+// 	users, resp, err := client.SlurmAPI.SlurmdbV0040GetUsers(context.Background()).Execute()
+
+// 	if err != nil {
+// 		log.Fatalf("FAIL: %s", err)
+// 	} else if resp.StatusCode != 200 {
+// 		log.Fatalf("Invalid status code: %d\n", resp.StatusCode)
+// 	}
+
+// 	fmt.Println(" ------ ======= ")
+// 	for _, user := range users.GetUsers() {
+// 		fmt.Println(" ----- ===== ", ", name: ", user.GetName(), " AdministratorLevel: ", user.AdministratorLevel, ", Associations: ", user.Associations, ", Coordinators", user.Coordinators, ", Flags: ", user.Flags)
+// 	}
+
+// }
+
 func main() {
 
 	cfg := slurmrestapi.NewConfiguration()
