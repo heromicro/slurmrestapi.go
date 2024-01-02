@@ -1,0 +1,4 @@
+github.com/heromicro/slurmrestapi.go v0.0.2-0.20231230121103-aad621648b83 h1:Bhj3YXZ/3vaVh3u59Wg9LxrpclmkaPueqeXQYiA2KWM=
+github.com/heromicro/slurmrestapi.go v0.0.2-0.20231230121103-aad621648b83/go.mod h1:C+CmTWYWM41WwH60AU4WuRZ+4Y9lr2ScK1cVJuP5nWg=
+github.com/heromicro/slurmrestapi.go v0.0.2-0.20240102025348-1e48fbde0763 h1:hJbdiiyNLKRn3334HL13PRvEJcvaeE6nxKMccBrJ77w=
+github.com/heromicro/slurmrestapi.go v0.0.2-0.20240102025348-1e48fbde0763/go.mod h1:Ygo7J5DqR8P9l9FNebjYRboBjBtlY4MAN0Tpk4Y5qJw=
