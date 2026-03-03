@@ -1,4 +1,4 @@
-module github.com/heromicro/slurmrestapi.go/slurmrestapi
+module github.com/heromicro/slurmrestapi.go/slurmapi
 
 go 1.23
 
